@@ -1,0 +1,13 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+RewriteRule ^CompteClients$  src/controller/CompteClientController.php
+RewriteRule ^login$  src/controller/LoginController.php
+RewriteRule ^searchClient$  src/controller/SearchClient.php
+RewriteRule ^addCompte$  src/controller/CompteController/add
+RewriteRule ^listeCompte$  src/view/compte/liste.php
