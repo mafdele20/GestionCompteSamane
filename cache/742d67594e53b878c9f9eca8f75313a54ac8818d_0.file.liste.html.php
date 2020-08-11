@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-08-11 15:26:52
+/* Smarty version 3.1.30, created on 2020-08-11 15:38:55
   from "C:\xampp\htdocs\samane\src\view\compte\liste.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f329c9c928e52_50800952',
+  'unifunc' => 'content_5f329f6fafc605_14907622',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '742d67594e53b878c9f9eca8f75313a54ac8818d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\samane\\src\\view\\compte\\liste.html',
-      1 => 1597054215,
+      1 => 1597153119,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f329c9c928e52_50800952 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f329f6fafc605_14907622 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <!DOCTYPE html>
@@ -65,12 +65,14 @@ public/image/user-connect.png" alt="Avatar" class="user"><a> gadiaga</a></li>
 
           </div>
            <div class="action">
-               <div class="slb-blanc"><a href="addCompte"> Creer un Compte</a></div>
+               <div class="slb-blanc"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+Compte/add"> Creer un Compte</a></div>
                <div class="slb-degrade"><a href=""> Faire un Virement </a></div>
                <div class="slb-blanc"><a href="">Bloquer un Compte</a></div>
                <div class="slb-degrade"><a href="">Fermer unCompte</a></div>
                <div class="slb-blanc"><a href=""> Archiver un compte</a></div>
-               <div class="slb-degrade"><a href="listeCompte">liste des Comptes</a></div>
+               <div class="slb-degrade"><a href="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
+Compte/liste">liste des Comptes</a></div>
        
            </div>
          
