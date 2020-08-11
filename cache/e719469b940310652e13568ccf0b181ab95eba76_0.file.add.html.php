@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-08-04 17:34:08
+/* Smarty version 3.1.30, created on 2020-08-11 15:26:45
   from "C:\xampp\htdocs\samane\src\view\compte\add.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5f297ff0b43e04_66471289',
+  'unifunc' => 'content_5f329c955d40b2_78973069',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e719469b940310652e13568ccf0b181ab95eba76' => 
     array (
       0 => 'C:\\xampp\\htdocs\\samane\\src\\view\\compte\\add.html',
-      1 => 1596548012,
+      1 => 1597152397,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f297ff0b43e04_66471289 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f329c955d40b2_78973069 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,6 +34,8 @@ public/css/compte.css">
  type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['url_base']->value;?>
 public/js/compte.js"><?php echo '</script'; ?>
 >
+
+
 </head>
 <body>
     <div class="compte">
